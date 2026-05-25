@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "cicd-end-to-end-project"
+    bucket         = "cicd-end-to-end-project-demo"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
     use_lockfile = true
